@@ -68,6 +68,4 @@ const login = async (e) => {
 };
 </script>
 
-<style lang="">
-  /* Add your styles here if needed */
-</style>
+
