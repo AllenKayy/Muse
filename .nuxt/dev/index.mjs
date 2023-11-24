@@ -63,7 +63,7 @@ const _inlineRuntimeConfig = {
   "public": {
     "spotifyClientID": "bdb3b1e8bde74aa19a2429213693b557",
     "spotifyClientSecret": "6493930f9bb642898f542a9c536cb9dc",
-    "redirectUri": "http://localhost:3000/callback"
+    "redirectUri": "https://muse-phi.vercel.app/callback"
   }
 };
 const ENV_PREFIX = "NITRO_";
