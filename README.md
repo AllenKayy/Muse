@@ -2,7 +2,7 @@
 
 # Let's go live 🚀
 
-![Preview Image](https://vercel.com/ea5c260c-a331-4447-b58b-2a14626bf85d)
+<img src="https://vercel.com/ea5c260c-a331-4447-b58b-2a14626bf85d" alt="Preview Image">
 
 Check out the live demo: [https://muse-phi.vercel.app](https://muse-phi.vercel.app)
 
