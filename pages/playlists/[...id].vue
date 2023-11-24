@@ -92,6 +92,7 @@ const selectSong = () => {
     // localStorage.setItem('currentSong', JSON.stringify({ ...playList.value?.[0], preview_url: preview_url.value, playListImg: playListImg.value }))
     // console.log(JSON.parse(localStorage.getItem('currentSong')))
     console.log('track.value', track.value)
+    localStorage.removeItem('currentSong');
     localStorage.setItem('currentSong', JSON.stringify(track.value))
     // localStorage.setItem('currentSong', track.value);
     // console.log('track.value', track.value)
