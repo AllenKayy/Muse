@@ -39,9 +39,7 @@ const playLists = ref(null);
 const state = ref('pending');
 
 onBeforeMount(() => {
-    if (!localStorage.getItem('loggedinUser')) {
-        router.push('/login')
-    }
+
 })
 
 const search = async () => {
@@ -81,7 +79,7 @@ async function getTrack(trackId) {
         const response = await fetch(url, options);
         const result = await response.json();
         const preview_url = result?.tracks?.[0]?.preview_url;
-        router.push(`/playlist/${trackId}/${preview_url}`);
+        router.push(`/playlists/${trackId}/${preview_url}`);
     } catch (error) {
         console.error(error);
     }

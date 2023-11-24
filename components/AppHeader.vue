@@ -30,7 +30,6 @@
     </div>
 </template>
 <script setup>
-
 const props = defineProps(['onPress']);
 const router = useRouter();
 const logoutShown = ref(false);
@@ -39,10 +38,11 @@ const currentSegment = ref('');
 
 const toggleLogout = () => {
     logoutShown.value = !logoutShown.value;
+    console.log(logoutShown.value)
 }
 
 const logout = () => {
-    localStorage.removeItem('loggedinUser');
+    localStorage.removeItem('accessToken');
     router.replace('/login')
 }
 
